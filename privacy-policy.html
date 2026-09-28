@@ -16,44 +16,46 @@
 <body>
 
 <h1>Costic Privacy Policy</h1>
-<p class="updated">Last updated: July 7, 2026</p>
+<p class="updated">Last updated: September 28, 2026</p>
 
-<p>Costic ("the app") is a personal finance tracker built to work fully offline. This policy explains what data the
-app collects, how it's used, and what control you have over it.</p>
+<p>Costic ("the app") is an offline-first personal finance tracker: everything works without an account or an
+internet connection. This policy explains what data the app collects, how it's used, and what control you have over
+it.</p>
 
 <h2>Summary</h2>
 <ul>
-  <li>By default, all of your financial data stays on your device. Nothing is uploaded unless you explicitly turn on Cloud Backup.</li>
+  <li>By default, all of your financial data stays on your device. Nothing is uploaded unless you explicitly sign in to Cloud Backup.</li>
   <li>Costic contains no advertising, no analytics SDKs, and no crash-reporting SDKs. We don't sell or share your data with advertisers, because there are none integrated into the app.</li>
-  <li>Camera and photo access (for receipt scanning) never leave your device — text recognition runs entirely on-device.</li>
+  <li>Costic does not access your camera or photo library.</li>
 </ul>
 
 <h2>Data stored locally on your device</h2>
-<p>Costic stores your accounts, transactions, categories, budgets, debts, dream jars (savings goals), and receipt
-photos in a local database on your device. This data is never transmitted anywhere unless you use one of the
-optional features described below. Uninstalling the app permanently deletes this local data.</p>
+<p>Costic stores your accounts, transactions, categories, budgets, debts, and dream jars (savings goals) in a local
+database on your device. This data is never transmitted anywhere unless you use one of the optional features
+described below. Uninstalling the app permanently deletes this local data.</p>
 
 <h2>Optional Cloud Backup</h2>
-<p>Cloud Backup is off by default. If you choose to sign in (via a one-time email link, no password), the app will:</p>
+<p>Cloud Backup is off by default. Signing in requires confirming that you are at least 13 years old. If you choose to
+sign in — either with your Google account or via a one-time email link (no password) — the app will:</p>
 <ul>
-  <li>Send your email address to our backend provider, <strong>Supabase</strong>, solely to authenticate you and send the sign-in link.</li>
-  <li>When you tap "Back up now," or automatically once every 24 hours while signed in, upload a full copy of your financial data (the same data described above) to your private, access-controlled storage on Supabase.</li>
+  <li>Send your email address to our backend provider, <strong>Supabase</strong>, solely to authenticate you (and, for
+  email sign-in, to send the sign-in link).</li>
+  <li>If you sign in with Google, receive your email address, name and profile picture from Google. Your name becomes
+  the display name shown in the app (replacing any name entered earlier); the profile picture is not stored. See
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a> for how
+  Google handles sign-in.</li>
+  <li>When you tap "Back up now," or automatically once every 24 hours while signed in, upload a full copy of your
+  financial data (the same data described above) to your private, access-controlled storage on Supabase, over an
+  encrypted (HTTPS) connection.</li>
   <li>When you tap "Restore from backup," download that data back to your device.</li>
 </ul>
 <p>This data is only accessible to your signed-in account. We do not access, read, or analyze it ourselves. Supabase
 acts as our infrastructure provider (a data processor) for this feature only — see
 <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase's privacy policy</a> for how they
 handle data on our behalf.</p>
-<p>You can sign out at any time from Settings, which stops any further backups. To request permanent deletion of a
-cloud backup and your account, contact us using the email address at the bottom of this page — we don't yet have a
-self-service deletion button in the app.</p>
-
-<h2>Camera and photo library (receipt scanning)</h2>
-<p>If you use the receipt-scanning feature, the app asks for camera or photo-library access to capture or select a
-receipt image. The photo is saved locally on your device, and the app reads text from it entirely on-device (using
-Google ML Kit and/or an on-device Tesseract OCR engine). <strong>No photo, and no text extracted from a photo, is
-ever uploaded to us or to any third party.</strong> Receipt photos are only included in a Cloud Backup if you have
-that optional feature turned on (see above).</p>
+<p>You can sign out at any time from the Cloud Backup screen, which stops any further backups, and delete your cloud
+backup at any time with the "Delete cloud backup" button on the same screen. To delete your account itself, contact
+us using the email address at the bottom of this page.</p>
 
 <h2>Contacts (debt tracker)</h2>
 <p>If you use the "pick contact" option in the Debts feature, the app asks for one-time access to your contacts so
@@ -73,13 +75,19 @@ pre-filling two setup fields, which you can change yourself immediately afterwar
 transactions. These are scheduled entirely on your device by the operating system — no notification content is sent
 through a push server, and no data about your notifications leaves your device.</p>
 
+<h2>App ratings</h2>
+<p>Costic may occasionally ask you to rate it, and you can rate it any time from More &gt; Support. Ratings and
+reviews are handled entirely by Google Play's in-app review system; we don't receive any personal data from it beyond
+what Google Play publicly shows alongside a review.</p>
+
 <h2>Data deletion</h2>
 <p>You can delete all local data at any time by uninstalling the app, or by using the in-app "Import/Export" and
-account-management screens. To request deletion of any data held in Cloud Backup, contact us at the email address
-below.</p>
+account-management screens. A cloud backup can be deleted from the Cloud Backup screen in the app; to delete your
+account, contact us at the email address below.</p>
 
 <h2>Children's privacy</h2>
-<p>Costic is not directed at children under 13 and does not knowingly collect data from them.</p>
+<p>Costic is not directed at children under 13 and does not knowingly collect data from them. Creating a Cloud Backup
+account requires confirming that you are at least 13.</p>
 
 <h2>Changes to this policy</h2>
 <p>If this policy changes, we'll update the date at the top of this page and, for material changes, note it in the
